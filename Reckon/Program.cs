@@ -15,6 +15,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IResultsService, ResultService>();
 builder.Services.AddTransient<IReckonApiService, ReckonApiService>();
 
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowAllOrigins", policy => {
+        policy.AllowAnyOrigin();
+        policy.AllowAnyMethod();
+        policy.AllowAnyHeader();
+    });
+});
+
 builder.Services.AddHttpClient<ReckonApiClient>().AddPolicyHandler(
     Policy.HandleResult<HttpResponseMessage>(
         response  => !response.IsSuccessStatusCode)
@@ -33,6 +41,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseRouting();
+app.UseCors("AllowAllOrigins");
 app.MapControllers();
 
 app.Run();
