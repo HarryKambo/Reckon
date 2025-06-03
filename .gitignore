@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Reckon/CopilotIndices/17.14.670.39694
+/.vs/Reckon/FileContentIndex
+/.vs/Reckon/v17
+/.vs
+/Reckon/bin/Debug/net8.0
+/Reckon/obj
+/Reckon.Core/bin/Debug/net8.0
+/Reckon.Core/obj
+/Reckon.Infrastructure/bin/Debug/net8.0
+/Reckon.Infrastructure/obj

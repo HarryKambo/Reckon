@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reckon.Api", "Reckon\Reckon.Api.csproj", "{FCB9F0C6-6A34-4D1A-94A2-FCC2BC925344}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5BE687D6-D165-4635-9418-24CBDC66A855} = {5BE687D6-D165-4635-9418-24CBDC66A855}
+		{DC07B87E-11A1-4A13-A95F-1F05F43D8FF0} = {DC07B87E-11A1-4A13-A95F-1F05F43D8FF0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reckon.Core", "Reckon.Core\Reckon.Core.csproj", "{DC07B87E-11A1-4A13-A95F-1F05F43D8FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reckon.Infrastructure", "Reckon.Infrastructure\Reckon.Infrastructure.csproj", "{5BE687D6-D165-4635-9418-24CBDC66A855}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCB9F0C6-6A34-4D1A-94A2-FCC2BC925344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB9F0C6-6A34-4D1A-94A2-FCC2BC925344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB9F0C6-6A34-4D1A-94A2-FCC2BC925344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB9F0C6-6A34-4D1A-94A2-FCC2BC925344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC07B87E-11A1-4A13-A95F-1F05F43D8FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC07B87E-11A1-4A13-A95F-1F05F43D8FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC07B87E-11A1-4A13-A95F-1F05F43D8FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC07B87E-11A1-4A13-A95F-1F05F43D8FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE687D6-D165-4635-9418-24CBDC66A855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE687D6-D165-4635-9418-24CBDC66A855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE687D6-D165-4635-9418-24CBDC66A855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE687D6-D165-4635-9418-24CBDC66A855}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC97527C-FC0B-4D36-9A04-A8C1EFBE31E8}
+	EndGlobalSection
+EndGlobal

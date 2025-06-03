@@ -1,0 +1,6 @@
+@Reckon_HostAddress = http://localhost:5264
+
+GET {{Reckon_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
